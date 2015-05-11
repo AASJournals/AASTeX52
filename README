@@ -27,7 +27,7 @@ sample/f3.eps
 
 sample/video3.mpg		A sample MPEG animation
 
-sample/datafile1.txt	A machine-readable version of Table 1 from sample.tex
+sample/datafile1.txt		A machine-readable version of Table 1 from sample.tex
 
  
 INSTALLING THE CLASS FILE
