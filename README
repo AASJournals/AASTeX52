@@ -2,7 +2,7 @@
 
 Thanks for your interest in the AASTeX package for manuscript preparation.  This directory contains all the files in the distribution.  They are described briefly below.  Following the file descriptions are short installation instructions, the generic recipe for printing the user guide and sample, and information about contacting us regarding the distribution.
 
-cls/aastex.cls		The AASTeX class file
+cls/aastex.cls			The AASTeX class file
 
 docs/aasguide.tex		The user guide for the package
 docs/aasguide.pdf		PDF of the user guide
@@ -12,7 +12,7 @@ docs/aassymbols.pdf		PDF of the symbols tables
 
 sample/sample.tex		Sample paper with "typical" content and markup
 sample/table.tex		Sample table file demonstrating capabilities 
-	                of deluxetable
+	                	of deluxetable
 
 other/natbib.sty		The natbib citation package (v7.1)
 other/natnotes.tex		The natbib reference guide
@@ -20,14 +20,14 @@ other/natnotes.pdf		PDF of the natbib reference
 
 You will also find the following sample graphics and supplemental materials files. 
 
-f1.eps		Sample figure files
-f2.eps
-f2_color.eps
-f3.eps 
+sample/f1.eps			Sample figure files
+sample/f2.eps
+sample/f2_color.eps
+sample/f3.eps 
 
-video3.mpg	A sample MPEG animation
+sample/video3.mpg		A sample MPEG animation
 
-datafile1.txt	A machine-readable version of Table 1 from sample.tex
+sample/datafile1.txt	A machine-readable version of Table 1 from sample.tex
 
  
 INSTALLING THE CLASS FILE
@@ -64,38 +64,21 @@ To create and print your own DVI file, type
     prompt> latex aasguide
     prompt> dvips aasguide
 
-There are various system- and program-specific eccentricities which
-cannot be fully enumerated here.  Some things to watch out for:
+There are various system- and program-specific eccentricities which cannot be fully enumerated here.  Some things to watch out for:
 
-    1.  On some systems, LaTeX does not permit a filename extension
-	(the .tex) on the input file specification; .tex is assumed.
+    1.  On some systems, LaTeX does not permit a filename extension (the .tex) on the input file specification; .tex is assumed.
 
-    2.  The user interfaces for DVI drivers are quite inconsistent.
-	Some operate in an interactive mode, asking the user about
-	variable setup parameters, while some only accept control
-	input on the command line.
+    2.  The user interfaces for DVI drivers are quite inconsistent. Some operate in an interactive mode, asking the user about variable setup parameters, while some only accept control input on the command line.
 
-    3.  On some systems, DVI translation and printing are combined,
-	so one would enter only one OS command after running LaTeX.
-	This is typically the case for dvips.
+    3.  On some systems, DVI translation and printing are combined, so one would enter only one OS command after running LaTeX. This is typically the case for dvips.
 
-Since LaTeX installations vary widely, you may need to consult 
-the documentation for your particular installation or your local 
-system administator for guidance in installing and using 
-AASTeX.
+Since LaTeX installations vary widely, you may need to consult the documentation for your particular installation or your local system administator for guidance in installing and using AASTeX.
  
 ADMINISTRATIVE DETAILS
 
-AASTeX was designed and written by Chris Biemesderfer in 1988.
-Substantial revisions were made by Lee Brotzman and Pierre
-Landau when the package was updated to v4.0.
-AASTeX was rewritten as a LaTeX class by Arthur Ogawa for the
-v5.0 release. It was updated to v5.2 by SR Nova Private Ltd.
-The documentation has benefited from revisions by
-Jeannette Barnes, Sara Zimmerman, and Greg Schwarz.
+AASTeX was designed and written by Chris Biemesderfer in 1988. Substantial revisions were made by Lee Brotzman and Pierre Landau when the package was updated to v4.0. AASTeX was rewritten as a LaTeX class by Arthur Ogawa for the v5.0 release. It was updated to v5.2 by SR Nova Private Ltd. The documentation has benefited from revisions by Jeannette Barnes, Sara Zimmerman, and Greg Schwarz.
 
-Comments, suggestions, complaints, and pleas for help can be sent
-electronically to aastex-help@aas.org.
+Comments, suggestions, complaints, and pleas for help can be sent electronically to aastex-help@aas.org.
 
 AASTeX Web site: http://aastex.aas.org/
 
